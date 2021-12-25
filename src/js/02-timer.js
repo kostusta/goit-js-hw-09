@@ -1,5 +1,5 @@
 import flatpickr from 'flatpickr';
-import Notiflix, { Notify } from 'notiflix';
+import { Notify } from 'notiflix';
 import 'flatpickr/dist/flatpickr.min.css';
 import 'notiflix/dist/notiflix-3.2.2.min.css'
 
