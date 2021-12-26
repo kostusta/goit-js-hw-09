@@ -9,7 +9,6 @@ refs.form.addEventListener('submit', onFormSubmit);
 let position = 0;
 let delay;
 
-//
 //-----
 function onFormSubmit(event) {
   event.preventDefault();
@@ -36,9 +35,6 @@ function onFormSubmit(event) {
     delay += step;
   }, delay);
 }
-
-//
-//
 
 function createPromise(position, delay) {
   const promise = new Promise((resolve, reject) => {
