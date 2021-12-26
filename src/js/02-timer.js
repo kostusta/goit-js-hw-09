@@ -1,7 +1,7 @@
 import flatpickr from 'flatpickr';
 import { Notify } from 'notiflix';
 import 'flatpickr/dist/flatpickr.min.css';
-import 'notiflix/dist/notiflix-3.2.2.min.css'
+import 'notiflix/dist/notiflix-3.2.2.min.css';
 
 const refs = {
   datetimePicker: document.getElementById('datetime-picker'),
@@ -79,7 +79,7 @@ class Timer {
     }, 1000);
   }
 
-  addLeadingZero(value,) {
+  addLeadingZero(value) {
     return String(value).padStart(2, '0');
   }
 
@@ -118,10 +118,10 @@ function onStartBtnClisk() {
 }
 
 function remainingTimeRender({ days, hours, minutes, seconds }) {
-  refs.days.textContent = (days);
-  refs.hours.textContent = (hours);
-  refs.minutes.textContent = (minutes);
-  refs.seconds.textContent = (seconds);
+  refs.days.textContent = days;
+  refs.hours.textContent = hours;
+  refs.minutes.textContent = minutes;
+  refs.seconds.textContent = seconds;
 }
 
 //

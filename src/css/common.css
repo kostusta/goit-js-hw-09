@@ -17,11 +17,25 @@ img {
   max-width: 100%;
 }
 
+input,
+button {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid teal;
+}
+
 .timer {
   font-family: 'Roboto Mono', monospace;
   font-size: 60px;
   color: #212121;
+
+  margin-top: 50px;
   padding: 50px;
+  border-radius: 10px;
+  border: 2px solid tomato;
+
   display: flex;
   justify-content: space-around;
 }
